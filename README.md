@@ -1,4 +1,4 @@
-# Hackathon-DigitalDepartment-Wildberris-2025
+# Hackathon-DigitalDepartment-Wildberries-2025
 
 ## Описание
 
@@ -25,8 +25,8 @@
 
 ### 1. Клонируйте репозиторий
 ```bash
-git clone https://github.com/diwshtayng/Hackathon-DigitalDepartment-Wildberris-2025.git
-cd Hackathon-DigitalDepartment-Wildberris-2025/our-flask-app
+git clone https://github.com/diwshtayng/fraud-detection.git
+cd fraud-detection/our-flask-app
 ```
 
 ### 2. Соберите и запустите контейнер
@@ -40,7 +40,7 @@ docker run -dp 5002:5002 our-flask-app
 
 ## Структура проекта
 ```
-Hackathon-DigitalDepartment-Wildberris-2025/
+fraud-detection/
 ├── our-flask-app/
 │   ├── app.py                # Основной файл с Flask-приложением и маршрутами
 │   ├── catboost_correct.pkl  # Сериализованная обученная модель
