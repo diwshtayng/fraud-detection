@@ -41,6 +41,9 @@ docker run -dp 5002:5002 our-flask-app
 ## Структура проекта
 ```
 fraud-detection/
+├── data/
+│   ├── df_test.csv           # Тестовая выборка
+│   ├── df_train.csv          # Тренировочная выборка
 ├── our-flask-app/
 │   ├── app.py                # Основной файл с Flask-приложением и маршрутами
 │   ├── catboost_correct.pkl  # Сериализованная обученная модель
